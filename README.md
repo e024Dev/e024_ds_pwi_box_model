@@ -6,15 +6,15 @@ O `BoxModel` é um dos principais fundamentos para o efetivo entendimento sobre 
 
 Cada TAG possuis propriedades comuns como margin, padding, border, color, background-color, dentre outras.
 
-> Lembre-se uma TAG é uma caixa que pode ser configurada de múltiplas maneiras e compreender as principais propriedades das caixas fará total diferença para seu sites futuros e como voce irá estilar os seus sites.
+> Lembre-se uma TAG é uma caixa que pode ser configurada de múltiplas maneiras e compreender as principais propriedades das caixas fará total diferença para seu sites futuros e como voce irá estilá-los.
 
 ## Criando um Blog
 
-Um blog é um site um site especializado em um determinado assunto, por serem extremamentte especificos tornam-se referencias muito facilmente.
+Um blog é um site um site especializado em um determinado assunto, por serem extremamentte específicos tornam-se referências no assunto muito facilmente.
 
-No iincio dos anos 2000, os blogs colaboraram com o surgimento da Web 2.0 onde, o conteúdo dos sites que antes eram providos apenas por empresas de comunicação e grandes portais de noticias e os blogs eram uma espécie de diário on-line.
+No início dos anos 2000, os blogs colaboraram com o surgimento da Web 2.0, nesta época o conteúdo dos sites que antes eram providos apenas por empresas de comunicação e grandes portais de noticias. Os blogs eram uma espécie de diário on-line.
 
-Com a Web 2.0 começava a popularização e consolidação dos Blogs com uma fonte de comunicação de forte poder de influencia que dava a capacidade de pessoas comuns desenvolverem sites e influenciar cada vez mais pessoas.
+Com a Web 2.0 começava a popularização e consolidação dos Blogs com uma fonte de comunicação de forte poder de influencia que dava a capacidade de pessoas comuns desenvolverem sites e influenciar cada vez mais pessoas, assim iniciava-se a nova Web onde pessoas comuns geravam conteúdos e foi o primórdio dos influencers que conhecemos hoje.
 
 Agora que você entendeu a importancia de um blog; é hora de voce criar o seu!
 
@@ -26,7 +26,7 @@ Porem, vamos relembrar algumas tags e formatar as nossas TAGs compreendendo efet
 
 Ao observarmos a estrutura do texto, podemos perceber uma hierarquia entre o os conteúdos apresentados.
 
-Podemos destacar o título do Blog com maior destaque, a seguir podemos notar 2 seções separando o conteúdo em 2 áreas de destaque; em cada uma destas seções nós podemos perceber o destaque de 2 artigos em especifico onde, apresentamos o conteúdo propriamente dito em sua hierarquia predefinida.
+Podemos destacar o título do Blog com maior destaque, a seguir podemos notar 2 seções separando o conteúdo em 2 áreas de destaque ou seções; em cada uma destas seções nós podemos perceber o destaque de 2 artigos em específico onde, apresentamos o conteúdo propriamente dito em uma hierarquia sematicamente distribuída.
 
 > Vamos criar esta estrutura e aplicar as estilizações em BoXmodel.
 
@@ -61,7 +61,7 @@ Agora você irá criar o blog, para tal, siga as instruções abaixo:
                 <p><span>L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Inventore distinctio sunt porro neque esse nam magni a architecto! Inventore illo ea architecto rem aspernatur at in magni fugit accusantium perspiciatis!</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores blanditiis ipsum eaque possimus, nesciunt nobis eius esse et, eveniet autem sequi ab repellat corrupti doloremque tempora, delectus molestiae assumenda cupiditate!</p>
             </article>
-            <!--Primeiro Artigo da seção-->
+            <!--Segundo Artigo da seção-->
             <article>
                 <header>Título do Segundo Artigo da Seção 1</header>
                 <p><span>L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Inventore distinctio sunt porro neque esse nam magni a architecto! Inventore illo ea architecto rem aspernatur at in magni fugit accusantium perspiciatis!</p>
@@ -103,7 +103,7 @@ Agora você irá criar o blog, para tal, siga as instruções abaixo:
 </html>
 ```
 
-> Leia os comentários com calma e analise a estrutura do documento. Voce pode também visualizar o resultado no navegador, apenas os títulos dos artigos não estarão iguais à imagem do blog; no CSS iremos ajustar esta formatação, como utilizamos a tag header para o cabeçalho e para os tilulos dos artigos, teremos de ajustar vias CSS para corrigir.
+> Leia os comentários com calma e analise a estrutura do documento. Você pode também visualizar o resultado no navegador, apenas os títulos dos artigos não estarão iguais à imagem do blog; no CSS iremos ajustar esta formatação, como utilizamos a tag header para o cabeçalho e para os tilulos dos artigos, teremos de ajustar vias CSS para corrigir.
 
 
 #### Adicionando o CSS
@@ -126,13 +126,13 @@ Para tal, adicione a tag `style` dentro do `head` do arquivo `index.html` confor
 
 <img src="assests/images/template_boxmodel.png">
 
-> Note que todas as TAGs estão explicítas como uma caixa agora. Lembre-se que a propriedade margin representa o espaço externo da tag, o padding o espaço do conteúdo da tag em relação `as suas estremidades, a barder representa o contorno ou o traço da caixa; existem inumeras outras tags que voce pode conhecer na documentação oficial da Mozilla.
+> Note que todas as TAGs estão explicítas como uma caixa agora. Lembre-se que a propriedade margin representa o espaço externo da tag, o padding o espaço do conteúdo da tag em relação às suas estremidades, a propriedade border representa o contorno ou o traço da caixa; existem inumeras outras tags que voce pode conhecer na documentação oficial da Mozilla.
 
 Agora perceba que como todas elas são caixas, você pode estilizá-las isoladamente! Vamos começar!
 
 #### Vamos estilizar as fontes
 
-Nas proximas aulas voces irão conhecer outras formas de utilizar o código-fonte do CSS, no momento iremos utilizar um CSS externo.
+Nas práximas aulas voces irão conhecer outras formas de utilizar o código-fonte do CSS, no momento iremos utilizar um CSS externo.
 
 Adicione o treco abaixo no `head`.
 
@@ -147,7 +147,9 @@ Adicione o treco abaixo no `head`.
 
 #### Agora ajuste a fonte dos títulos.
 
-1. Inclua na tag `style` o trecho abaixo e verifique o resultado no navegador.
+1. Inclua na tag `style` o trecho abaixo e verifique o resultado no navegador e remova o código que aplica as as bordas às tags.
+
+> A cada uma das alterações que voce realizar abaixo, salve o arquivo e verifique o resultado no navegador.
 
 ```css
 h1,
