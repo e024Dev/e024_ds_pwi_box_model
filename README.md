@@ -70,22 +70,20 @@ Agora você irá criar o blog, para tal, siga as instruções abaixo:
         </section>
         <!--Seção de conteúdo 2 - Separação de áreas distintas de conteúdo -->
         <section>
-            <section>
-                <!--Descrição de seção -->
-                <h2>Descrição da Seção Secundária</h2>
-                <!--Primeiro Artigo da seção-->
-                <article>
-                    <header>Título do Primeiro Artigo da Seção 2</header>
-                    <p><span>L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Inventore distinctio sunt porro neque esse nam magni a architecto! Inventore illo ea architecto rem aspernatur at in magni fugit accusantium perspiciatis!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores blanditiis ipsum eaque possimus, nesciunt nobis eius esse et, eveniet autem sequi ab repellat corrupti doloremque tempora, delectus molestiae assumenda cupiditate!</p>
-                </article>
-                <!--Segundo Artigo da seção-->
-                <article>
-                    <header>Título do Segundo Artigo da Seção 2</header>
-                    <p><span>L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Inventore distinctio sunt porro neque esse nam magni a architecto! Inventore illo ea architecto rem aspernatur at in magni fugit accusantium perspiciatis!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores blanditiis ipsum eaque possimus, nesciunt nobis eius esse et, eveniet autem sequi ab repellat corrupti doloremque tempora, delectus molestiae assumenda cupiditate!</p>
-                </article>
-            </section>
+            <!--Descrição de seção -->
+            <h2>Descrição da Seção Secundária</h2>
+            <!--Primeiro Artigo da seção-->
+            <article>
+                <header>Título do Primeiro Artigo da Seção 2</header>
+                <p><span>L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Inventore distinctio sunt porro neque esse nam magni a architecto! Inventore illo ea architecto rem aspernatur at in magni fugit accusantium perspiciatis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores blanditiis ipsum eaque possimus, nesciunt nobis eius esse et, eveniet autem sequi ab repellat corrupti doloremque tempora, delectus molestiae assumenda cupiditate!</p>
+            </article>
+            <!--Segundo Artigo da seção-->
+            <article>
+                <header>Título do Segundo Artigo da Seção 2</header>
+                <p><span>L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Inventore distinctio sunt porro neque esse nam magni a architecto! Inventore illo ea architecto rem aspernatur at in magni fugit accusantium perspiciatis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores blanditiis ipsum eaque possimus, nesciunt nobis eius esse et, eveniet autem sequi ab repellat corrupti doloremque tempora, delectus molestiae assumenda cupiditate!</p>
+            </article>
         </section>
     </main>
     <footer>
